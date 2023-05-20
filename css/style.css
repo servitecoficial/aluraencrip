@@ -1,0 +1,254 @@
+html {
+    min-height: 100%;
+}
+a:link, a:visited, a:hover, a:active{
+    color: #30274e;
+    text-decoration: none;
+}
+body{
+    background: #33332d;
+    font-family: 'Courier Prime', monospace;
+    color: #fff8dc;
+}
+header{
+    background: lightgray;
+}
+#logo{
+    display: inline;
+}
+#logo>img{
+    margin-top: 10px;
+}
+#titulo{
+    display: inline;
+}
+h1{
+    font-size: 2em; 
+    color: #2d2d33;
+    display: inline;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+    background: #33332d;
+    height: 650px;
+}
+input{
+    color: #fff8dc;
+    background: #33332d;
+    width: 40%;
+    margin: auto 20px;
+    box-shadow: 3px 3px #fff8dc;
+    border-color: #fff8dc;
+}
+#encriptador{
+    width: 55%;
+    background: #33332d;
+    display: inline-block;
+    padding: 50px;
+    vertical-align: top;
+}
+#encriptador>textarea{
+    width: 100%;
+}
+#encriptador>p{
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+#encriptador img{
+    height: 15px;
+    vertical-align: text-top;
+    padding: 0 10px 0 0;
+}
+textarea{
+    background: #8e689c;
+    box-shadow: 5px 5px #fff8dc;
+    border-color: #fff8dc;
+    resize: none;
+    color: #fff8dc;
+    font-size: 2em;
+}
+textarea::placeholder{
+    color: #fff8dc;
+}
+#fondo{
+    width: 30%;
+    background: #33332d;
+    display: inline-block;
+    margin: 0 0 10px 0;
+    transition: all .7s;
+}
+#fondo>img{
+    width: 200px;
+    margin: 100px 50px;
+}
+#fondo>p{
+    text-align: center;
+}
+#consola{
+    width: 30%;
+    background: #520e79;
+    display: none;
+    margin: 35px 0 10px 0;
+    transition: all .7s;
+}
+#consola>textarea{
+    margin: 5%;
+}
+#consola>textarea::placeholder{
+    font-size: 12px;
+    text-align: center;
+}
+#consola>img{
+    width: 200px;
+}
+footer{
+    padding-top: 10px;
+    background: lightgray;
+    text-align: center;
+    color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.logo{
+    height: 25px;
+    vertical-align: middle;
+    padding: 0 10px 0 0;
+}
+#pi{
+    color: #fff8dc;
+    text-align: right;
+    margin-right: 0px;
+}
+#pi>a{
+    color: lightgray;
+}
+@media screen and (max-width:480px){
+    header{
+        min-width: 100%;
+    }
+    h1{
+        font-size: medium;
+        display: table-caption;
+    }
+    main{
+        width: auto;
+        margin: 0 auto;
+        height: auto;
+    }
+    #encriptador{
+        width: 90%;
+        padding: 10px;
+    }
+    #encriptador textarea{
+        height: 300px;
+    }
+    #encriptador>p{
+        padding: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    #encriptador img{
+        height: 13px;
+        min-height: 100%;
+        position: relative;
+    }
+    #encriptador input{
+        width: 35%;
+        margin: 10px 20px;
+    }
+    #fondo>img {
+        width: 100px;
+        margin: 10px 10px;
+        display: none;
+    }
+    #fondo p{
+        width: 370px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #consola {
+        width: 100%;
+        display: none;
+        margin: 0 0 10px 0;
+        transition: all .7s;
+        height: auto;
+    }
+    #consola>textarea {
+        margin: 5%;
+        height: 80px;
+        width: 85%;
+    }
+    footer{
+        height: auto;
+        font-size: small;
+        padding: 10px;
+        position: fixed;
+        min-width: 100%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 912px){
+    header{
+        min-width: 100%;
+    }
+    h1{
+        font-size: medium;
+        display: table-caption;readText
+    }
+    main{
+        width: auto;readText
+        margin: 0 auto;
+        height: auto;
+    }
+    #encriptador{
+        width: 90%;
+        padding: 30px;
+    }
+    #encriptador textarea{
+        height: 300px;
+    }
+    #encriptador>p{
+        padding: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    #encriptador img{
+        height: 13px;
+    }
+    #encriptador input{
+        width: 35%;
+        margin: 10px 20px;
+    }
+    #fondo{
+        width: 100%;
+        text-align: center;
+    }
+    #fondo>img {
+        width: 90px;
+        margin: 10px 10px;
+        display: none;
+    }
+    #fondo p{
+        width: 85%;
+    }
+    #consola {
+        width: 100%;
+        display: none;
+        margin: 0 0 10px 0;
+        transition: all .7s;
+    }
+    #consola>textarea {
+        margin: 5%;
+        height: 80px;
+        width: 85%;
+    }
+    footer{
+        height: auto;
+        font-size: small;
+        padding: 10px;
+        position: fixed;
+        min-width: 100%;
+    }
+}
